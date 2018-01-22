@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+.row .empty:last-child{
+    border-right:1px solid grey;
+}
+#pixel-art-container .row:last-child>div{
+    border-bottom: 1px solid grey;
+}
+.empty{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border: 1px solid grey;
+    border-bottom: 0;
+    border-right: 0;
+}
+#current-color{
+    height: 75px;
+    width: 75px;
+    border-radius: 10%;
+    background-color: #000000;
+}
+#purple{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+}
+#yellow{
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+}
+
